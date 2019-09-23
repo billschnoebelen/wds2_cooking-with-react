@@ -71,25 +71,26 @@ function App() {
 const sampleRecipes = [
   {
     id: 1,
-    name: "Plain Chicken",
+    name: "Corn and Eggs",
     servings: 3,
     cookTime: "1:45",
-    instructions:
-      "1. Put salt on chicken\n2. Put chicken in oven\n3. Eat chicken",
+    instructions: "1. Heat Corn\n2. Crack Eggs\n3. Cook Eggs",
     ingredients: [
-      { id: 1, name: "Chicken", amount: "2 Pounds" },
-      { id: 2, name: "Salt", amount: "1 Tbs" }
+      { id: 1, name: "Eggs", amount: "1/2 Dzn" },
+      { id: 2, name: "Corn", amount: "1 Cup" },
+      { id: 3, name: "Butter", amount: "1 Tbs" }
     ]
   },
   {
     id: 2,
-    name: "Plain Pork",
+    name: "Popcorn",
     servings: 5,
     cookTime: "0:45",
-    instructions: "1. Put paprika on pork\n2. Put pork in oven\n3. Eat pork",
+    instructions: "1. Heat Butter\n2. Put popcorn in pan\n3. Burn popcorn",
     ingredients: [
-      { id: 1, name: "Pork", amount: "3 Pounds" },
-      { id: 2, name: "Paprika", amount: "2 Tbs" }
+      { id: 1, name: "Popcorn", amount: "1 Cup" },
+      { id: 2, name: "Salt", amount: "to taste" },
+      { id: 3, name: "Butter", amount: "1 Tbs" }
     ]
   }
 ];
